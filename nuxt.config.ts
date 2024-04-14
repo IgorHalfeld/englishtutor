@@ -24,7 +24,7 @@ export default defineNuxtConfig({
 
   googleFonts: {
     base64: true,
-    fontsDir: 'assets/fonts',
+    // fontsDir: 'assets/fonts',
     overwriting: true,
     families: {
       Montserrat: [300, 500, 800],
