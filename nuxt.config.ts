@@ -6,7 +6,7 @@ export default defineNuxtConfig({
 
   runtimeConfig: {
     public: {
-      workerUrl: process.env.WORKER_URL,
+      workerUrl: 'https://englishtutor-agent.igorhalfeld.workers.dev',
     },
   },
 
@@ -14,15 +14,12 @@ export default defineNuxtConfig({
     url: 'https://englishtutor.pages.dev',
   },
 
-  /*
   nitro: {
     prerender: {
       autoSubfolderIndex: false,
     },
   },
-  */
 
-  /*
   googleFonts: {
     base64: true,
     fontsDir: 'assets/fonts',
@@ -31,5 +28,4 @@ export default defineNuxtConfig({
       Montserrat: [300, 500, 800],
     },
   },
-  */
 })
