@@ -9,11 +9,13 @@ export default defineNuxtConfig({
     },
   },
 
+  /*
   nitro: {
     prerender: {
       autoSubfolderIndex: false,
     },
   },
+  */
 
   googleFonts: {
     base64: true,
