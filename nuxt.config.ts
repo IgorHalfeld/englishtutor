@@ -1,12 +1,17 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
+
   modules: ['@nuxtjs/tailwindcss', '@nuxtjs/google-fonts', 'nuxt-og-image'],
 
   runtimeConfig: {
     public: {
       workerUrl: process.env.WORKER_URL,
     },
+  },
+
+  site: {
+    url: 'https://englishtutor.pages.dev',
   },
 
   /*
