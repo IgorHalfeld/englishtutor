@@ -1,0 +1,28 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "deploy": "npm run build && wrangler pages deploy ./dist",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@cloudflare/ai": "^1.1.0",
+    "@nuxtjs/google-fonts": "^3.2.0",
+    "@nuxtjs/tailwindcss": "^6.11.4",
+    "daisyui": "^4.10.1",
+    "dayjs": "^1.11.10",
+    "hono": "^4.2.4",
+    "nuxt": "^3.11.2",
+    "nuxt-og-image": "^3.0.0-rc.52",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "wrangler": "^3.50.0"
+  }
+}

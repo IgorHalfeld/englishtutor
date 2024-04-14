@@ -1,0 +1,7 @@
+name = "englishtutor-agent"
+main = "index.ts"
+compatibility_date = "2024-04-05"
+compatibility_flags = ["nodejs_compat"]
+
+[ai]
+binding = "AI"
